@@ -1,0 +1,95 @@
+{
+  "cache_dir": "outputs\\reg_cache",
+  "data_dir": "Data",
+  "usable_ids_file": "Validation\\usable_patient_ids.txt",
+  "usable_ids_count": 263,
+  "dice_similarity": {
+    "before": {
+      "n": 261,
+      "mean": 0.21575543966946914,
+      "median": 0.1464517681802363,
+      "std": 0.21840679855065617,
+      "min": 0.0,
+      "max": 0.7345405599001893,
+      "p90": 0.5343017879944589,
+      "p95": 0.6161730484923468,
+      "p99": 0.7228398678993908
+    },
+    "after": {
+      "n": 261,
+      "mean": 0.7173418788389684,
+      "median": 0.7244170721071637,
+      "std": 0.05717224106672279,
+      "min": 0.5478676158232818,
+      "max": 0.8610009408031877,
+      "p90": 0.7848923278428697,
+      "p95": 0.7981205802101777,
+      "p99": 0.832549647758326
+    },
+    "improvement": {
+      "n": 261,
+      "mean": 0.5015864391694993,
+      "median": 0.5382039895041786,
+      "std": 0.2235033405588701,
+      "min": -0.021654046674680405,
+      "max": 0.8530826491548809,
+      "p90": 0.749758267018171,
+      "p95": 0.7691092385740251,
+      "p99": 0.8209208944458968
+    }
+  },
+  "centroid_before_mm": {
+    "n": 261,
+    "mean": 296.97998203446633,
+    "median": 131.17689030002924,
+    "std": 314.02794746840027,
+    "min": 18.197916981085637,
+    "max": 1579.6015354924223,
+    "p90": 706.600265243528,
+    "p95": 879.1586823102549,
+    "p99": 1278.3040230338568
+  },
+  "centroid_after_mm": {
+    "note": "For this rigid transform form, centroid-anchor distance after alignment is 0 mm by construction.",
+    "value": 0.0
+  },
+  "rotation_effective_deg": {
+    "n": 261,
+    "mean": 0.6033956522568277,
+    "median": 0.09657754964018817,
+    "std": 1.223231273065657,
+    "min": 0.03720429827540022,
+    "max": 7.151854489521909,
+    "p90": 1.9675621275101776,
+    "p95": 3.469325296765291,
+    "p99": 6.407980924567091
+  },
+  "qualitative_artifacts": {
+    "atlas_html": [
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_female\\01_common_basis.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_female\\02_average_liver.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_female\\03_density_slices.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_female\\vdc_all_modes.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_female\\vdc_combined.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_female\\vdc_histogram.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_female\\vdc_slices.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_male\\01_common_basis.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_male\\02_average_liver.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_male\\03_density_slices.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_male\\vdc_all_modes.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_male\\vdc_combined.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_male\\vdc_histogram.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\atlas_male\\vdc_slices.html"
+    ],
+    "vessel_comparison_html": [
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\vessel_comparison_0004.html",
+      "C:\\Users\\trist\\OneDrive\\Documents\\BMI Masters Program\\Spring 2026\\Capstone Project\\Project\\outputs\\vessel_comparison_0012.html"
+    ]
+  },
+  "section4_report": {
+    "4_1_dice": "Use dice_similarity.before/after and improvement for quantitative overlap summary.",
+    "4_2_centroid": "Use centroid_before_mm and centroid_after_mm for translation spread summary.",
+    "4_3_rotation": "Use rotation_effective_deg for canonical orientation verification.",
+    "4_4_qualitative": "Qualitative validation should cite artifact files listed in qualitative_artifacts."
+  }
+}
