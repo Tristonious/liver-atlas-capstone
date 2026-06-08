@@ -1,0 +1,14 @@
+patient_id,gender,voxel_count,decision,qc_comment
+s0669,,,,"possibly has tumours, multiple in close proximity"
+s0637,,,,odd shape
+s0628,,,,possibly a tumor
+s0593,,,,multiple tumors as well as resections
+s0541,,,,possibly tumor
+s0548,,,,huge resection example
+s0513,,,,possibly a tumor
+s0555,,,,reversed liver
+s0529,,,,huge resection and possibly tumors
+s0342,,,,possibly a tumor
+s0991,,,,possibly a tumor
+s0979,,,,possibly lots of tumors
+s0923,,,,possibly a tumor
