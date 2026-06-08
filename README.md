@@ -1,6 +1,8 @@
 # Probabilistic CT Liver Atlas — Tristan Jones
 **Biomedical Informatics Capstone · University of Nebraska Omaha · Spring 2026**
 
+> **Note:** This is a public-facing version of the capstone repository, cleaned and packaged for GitHub. It reflects the final state of the project but is not the exact working directory used during development.
+
 An end-to-end pipeline for constructing a sex-stratified probabilistic liver atlas and population-level distance-to-vasculature maps from clinical CT volumes.  Rigid alignment improved median Dice from **0.146 → 0.724** across 261 subjects (154 male, 107 female).
 
 ---
@@ -181,11 +183,33 @@ Python 3.10+ recommended. GPU strongly recommended for TotalSegmentator (`--gpu`
 
 ---
 
-## Citation
+## Citations and Licenses
 
-If you use this pipeline, please cite TotalSegmentator:
+This pipeline is built on data and models from the following works. Please cite all that apply.
 
-> Wasserthal et al., "TotalSegmentator: Robust segmentation of 104 anatomic structures in CT images," *Radiology: Artificial Intelligence*, 2023.
+---
+
+**TotalSegmentator dataset and toolkit** *(primary — cite for both the CT data and the segmentation tool)*
+> Wasserthal, J. et al., "TotalSegmentator: Robust segmentation of 104 anatomic structures in CT images," *Radiology: Artificial Intelligence*, vol. 5, no. 5, e230024, 2023.
+
+Dataset license: **Creative Commons Attribution 4.0 International (CC BY 4.0)**
+Toolkit license: **Apache 2.0**
+Dataset source: https://zenodo.org/records/10047292
+
+---
+
+**nnU-Net** *(backbone architecture underlying TotalSegmentator)*
+> Isensee, F. et al., "nnU-Net: A self-configuring method for deep learning-based biomedical image segmentation," *Nature Methods*, vol. 18, no. 2, pp. 203–211, 2021.
+
+---
+
+**liver_vessels subtask** *(hepatic vessel + tumor segmentation model)*
+> Simpson, A. L. et al., "A large annotated medical image dataset for the development and evaluation of segmentation algorithms," arXiv:1902.09063, 2019.
+
+---
+
+**liver_segments subtask** *(Couinaud segment model)*
+> Tian, J. et al., "Automatic Couinaud segmentation from CT volumes on liver using GLC-UNet," in *Proc. MLMI*, LNCS vol. 11861, Springer, 2019, pp. 274–282.
 
 ---
 
