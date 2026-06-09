@@ -7,6 +7,14 @@ An end-to-end pipeline for constructing a sex-stratified probabilistic liver atl
 
 ---
 
+## Paper
+
+Covers the full methodology, alignment pipeline design, atlas construction, distance-to-vasculature mapping, and evaluation across 261 subjects.
+
+[`Final_Research_Report_Tristan_Jones.pdf`](https://github.com/Tristonious/liver-atlas-capstone/blob/main/research_paper/Final_Research_Report_Tristan_Jones.pdf)
+
+---
+
 ## Quick Start
 
 ```bash
@@ -189,12 +197,10 @@ This pipeline is built on data and models from the following works. Please cite 
 
 ---
 
-**TotalSegmentator dataset and toolkit** *(primary — cite for both the CT data and the segmentation tool)*
-> Wasserthal, J. et al., "TotalSegmentator: Robust segmentation of 104 anatomic structures in CT images," *Radiology: Artificial Intelligence*, vol. 5, no. 5, e230024, 2023.
+**TotalSegmentator** — Wasserthal, J. et al., "TotalSegmentator: Robust segmentation of 104 anatomic structures in CT images," *Radiology: Artificial Intelligence*, vol. 5, no. 5, e230024, 2023.
 
-Dataset license: **Creative Commons Attribution 4.0 International (CC BY 4.0)**
-Toolkit license: **Apache 2.0**
-Dataset source: https://zenodo.org/records/10047292
+- **Dataset** (CT volumes used in this project): CC BY 4.0 — https://zenodo.org/records/10047292
+- **Toolkit** (segmentation software): Apache 2.0 — https://github.com/wasserth/TotalSegmentator
 
 ---
 
