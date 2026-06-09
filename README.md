@@ -199,8 +199,11 @@ This pipeline is built on data and models from the following works. Please cite 
 
 **TotalSegmentator** — Wasserthal, J. et al., "TotalSegmentator: Robust segmentation of 104 anatomic structures in CT images," *Radiology: Artificial Intelligence*, vol. 5, no. 5, e230024, 2023.
 
-- **Dataset** (CT volumes used in this project): CC BY 4.0 — https://zenodo.org/records/10047292
-- **Toolkit** (segmentation software): Apache 2.0 — https://github.com/wasserth/TotalSegmentator
+This paper describes both the dataset and the segmentation toolkit used in this project.
+
+Dataset license: **Creative Commons Attribution 4.0 International (CC BY 4.0)**
+Toolkit license: **Apache 2.0**
+Dataset source: https://zenodo.org/records/10047292
 
 ---
 
